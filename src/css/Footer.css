@@ -1,0 +1,17 @@
+.Footer{
+    background-color: #191c20;
+    color: rgb(226, 226, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    min-height: 5vh;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.97);
+}
+
+.Footer p{
+    font-weight: lighter;
+    letter-spacing: .05vw;
+}
+

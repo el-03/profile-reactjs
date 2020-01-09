@@ -1,0 +1,140 @@
+.About{
+    background-color: #222428;
+    color: rgb(226, 226, 226);
+    display: flex;
+    flex-direction: column;
+}
+
+.About h2{
+    align-items: center;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.About h3{
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+.About p{
+    text-align: center;
+    line-height: 150%;
+    font-size: 1vw;
+    letter-spacing: 0.2vw;
+    transition: 0.3s ease;
+}
+.About article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*Hi Content*/
+.Hi-Container{
+    display: grid;
+    grid-template-columns: 97%  2%;
+    transition: 0.3s ease-in;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.97);
+    z-index: 1;
+}
+.Hi-Container img{
+    width: 20vw;
+    height: auto;
+    opacity: 0.5;
+    transition: 1s opacity;
+    margin-left: 3vw;
+    border-radius: 10%;
+    padding: 20px;
+    z-index: 1;
+}
+
+.Hi-Container--expand{
+    display: grid;
+    grid-gap: 3%;
+    grid-template-columns: 76vw auto;
+    transition: 0.3s ease-out;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.97);
+    z-index: 1;
+}
+.Hi-Container--expand img{
+    width: 20vw;
+    height: auto;
+    opacity: 1;
+    transition: 0.5s opacity;
+    border-radius: 10%;
+    padding: 20px;
+}
+
+.Hi{
+    align-items: center;
+}
+.Hi p{
+    width: 50vw;
+}
+
+/*Getting to Know Content*/
+.Know{
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #282c37;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Know-Container{
+    display: grid;
+    width: 60vw;
+    align-items: center;
+    justify-items: center;
+    padding: 8px;
+    margin: 25px;
+    background-color: rgb(226, 226, 226);
+    color: black;
+    border-radius: 10px;
+    transition: .2s ease;
+}
+.Picture-Content{
+    grid-template-columns: .2fr .8fr;
+}
+.Content-Picture{
+    grid-template-columns: .8fr .2fr;
+}
+.Know-Container:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.97);
+}
+
+
+.Know h3{
+    position: relative;
+    left: auto;
+}
+
+.Know img{
+    width: 7vw;
+    height: auto;
+    border-radius: 10%;
+}
+
+.Know article{
+    margin: 20px;
+}
+
+
+/*@media screen and (max-width: 1350px) {*/
+/*    .Hi h2{*/
+/*        font-size: 23px;*/
+/*    }*/
+/*    .Hi p{*/
+/*        font-size: 19px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 768px) {*/
+/*    .Hi{*/
+/*        min-height: 45vh;*/
+/*    }*/
+/*    .Hi p{*/
+/*        width: 75vw;*/
+/*        font-size: 14px;*/
+/*    }*/
+/*}*/

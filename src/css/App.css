@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#root{
+}
+
+.Home{
+    min-height: 50vh;
+    background-color: #282c37;
+    color: rgb(226, 226, 226);
+    font-size: 1.35vw;
+    letter-spacing: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 1350px) {
+    .Home h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Home h1{
+        font-size: 25px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+}
+

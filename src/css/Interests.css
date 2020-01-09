@@ -1,0 +1,119 @@
+.Interests{
+    background-color: #282c37;
+    color: rgb(226, 226, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 5vh;
+    padding-left: 30px;
+}
+
+.ImagesContainer{
+    display: grid;
+    grid-template-columns: 0.4fr 0.6fr;
+    align-items: self-start;
+    grid-gap: 2px;
+    justify-items: left;
+    border-radius: 10px;
+}
+.SmallImage{
+    background-color: rgb(226, 226, 226);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.97);
+}
+.SmallImagesContainer{
+    max-width: 30vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    align-items: start;
+    padding: 10px;
+}
+.SmallImagesContainer img{
+    max-width: 100%;
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+}
+.SmallImagesContainer img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.Button{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin: 5px;
+}
+.Button img{
+    max-width: 5vw;
+    transition: all .2s ease-in-out;
+}
+.Button img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.InterestsContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.InterestsContent h2{
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 1vh;
+}
+.InterestsContent p{
+    text-align: center;
+    line-height: 150%;
+    font-size: 1vw;
+    margin: 1vh;
+    letter-spacing: 0.2vw;
+    transition: 0.3s ease;
+}
+.InterestsContent article{
+    background-color: #222428;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.97);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1vh;
+    padding: 20px;
+}
+.BigImage{
+    max-width: 70%;
+    height: auto;
+    margin-top: 5vh;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.97);
+}
+
+/*@media screen and (max-width: 1350px) {*/
+
+/*    .Interests h2{*/
+/*        font-size: 23px;*/
+/*    }*/
+
+/*    .Interests p{*/
+/*        font-size: 19px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 768px) {*/
+/*    .Interests{*/
+/*        min-height: 45vh;*/
+/*    }*/
+
+/*    .Interests p{*/
+/*        width: 75vw;*/
+/*        font-size: 14px;*/
+/*    }*/
+/*}*/
