@@ -1,5 +1,5 @@
 # profile-reactjs
-One single web pages about me that written using reactjs, and this is my first project using react.
+One single web page about me that written using reactjs, and this is my first project using react.
 
 There is only one external package that used:
 1. https://www.npmjs.com/package/react-scroll
