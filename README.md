@@ -4,6 +4,8 @@ One single web page about me that written using reactjs, and this is my first pr
 There is only one external package that used:
 1. https://www.npmjs.com/package/react-scroll
 
+this file is quite big because this page contains some large images.
+
 For now, although for desktop view there is no serious problems, the page is not fully responsive for mobile use. However in the future i'll try to update it.
 
 if there's any suggestions, please kindly to tell me :)
